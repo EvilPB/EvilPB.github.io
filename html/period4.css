@@ -1,0 +1,37 @@
+p {
+	color: red;
+}
+
+body {
+	background-color: #679933;
+    font-size: 14px;
+    color: navy;
+}
+
+h1 {
+    color: #ffc;
+    background-color: #009222;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#importantQuote {
+	border: 100px;
+	border-style: dashed;
+	border-width: 2px;
+}
+
+.importantQuote {
+	border: 100px;
+	border-style: dashed;
+	border-width: 5px;
+	border-color:green;
+}
+
+#mainContent {
+	margin-left: 200px;
+}
+
+#navBar {
+	mergin-left:0;
+	mergin: fixed;
+}
