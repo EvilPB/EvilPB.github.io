@@ -6,12 +6,16 @@ body {
 	background-color: #679933;
     font-size: 14px;
     color: navy;
+	margin: 40px 150px;
+	padding: 0 20px;
+	border: solid;
+	border-radius: 25px;
 }
 
 h1 {
     color: #ffc;
     background-color: #009222;
-	font-family: arial, helvetica, sans-serif;
+	font-family: 'Kaushan Script', cursive;
 }
 
 #importantQuote {
@@ -28,10 +32,21 @@ h1 {
 }
 
 #mainContent {
-	margin-left: 200px;
+	margin-left: 0;
 }
 
 #navBar {
-	mergin-left:0;
-	mergin: fixed;
+	background-color: #224863;
+	padding-top: 75px;
+	margin-left: 0;
+	position: fixed;
+	height: 100%;
+	top:0;
+	left:0;
+}
+
+#navBar ul li a{
+	text-decoration: none;
+	display: block;
+	color: #fff;
 }
