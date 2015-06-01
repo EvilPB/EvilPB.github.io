@@ -1,3 +1,45 @@
-p{
-	color: red;
+p{ 
+	color: #9C344C;
+	font-size:20px;
+
+}
+
+body{
+	background-color: #679933;
+	margin:40px 180px;
+	font-family: 'Coming Soon', cursive;
+}
+
+h1{
+	color:#28536C;
+}
+
+h2{
+	color:#236A62;
+}
+#navBar {
+	background-color: #AA7F39;
+	padding-top: 75px;
+	margin-left: 0;
+	position: fixed;
+	height: 100%;
+	top:0;
+	left:0;
+}
+
+#navBar ul li a{
+	text-decoration:none;
+	display: block;
+	color: #000;
+}
+
+#navBar ul li a:hover {
+	background-color: #fff;
+}
+
+#importantQuote {
+	border: 100px;
+	border-width:4px;
+	border-style:solid;
+	border-color:red;
 }
